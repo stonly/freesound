@@ -1,1 +1,6 @@
 <p>This is the partial for view 1.</p>
+
+<ul>
+    <li ng-repeat="sound in sounds"><a ng-href="{{ sound['preview-hq-mp3'] }}">Play</a> {{ sound.original_filename }}</li>
+</ul>
+
